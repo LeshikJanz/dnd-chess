@@ -20,8 +20,6 @@ export default class Board extends Component {
       <Knight /> :
       null;
 
-    console.log('piece');
-    console.log(piece);
     return (
       <div key={i}
            style={{ width: '12.5%', height: '12.5%' }}>
